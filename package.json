@@ -16,6 +16,7 @@
         "tsc": "npx tsc --noEmit"
     },
     "dependencies": {
+        "@hookform/resolvers": "^3.9.0",
         "@mongez/cache": "^1.2.4",
         "@mongez/config": "^1.0.26",
         "@mongez/dom": "^1.1.2",
@@ -33,15 +34,19 @@
         "@mongez/reinforcements": "^2.3.10",
         "@mongez/supportive-is": "^2.0.3",
         "@mongez/user": "^1.0.13",
+        "@radix-ui/react-dropdown-menu": "^2.1.1",
+        "@radix-ui/react-label": "^2.1.0",
         "@radix-ui/react-slot": "^1.1.0",
         "class-variance-authority": "^0.7.0",
         "clsx": "^2.1.1",
         "lucide-react": "^0.400.0",
         "react": "^18.3.1",
         "react-dom": "^18.3.1",
+        "react-hook-form": "^7.52.1",
         "sass": "^1.66.1",
         "tailwind-merge": "^2.3.0",
-        "tailwindcss-animate": "^1.0.7"
+        "tailwindcss-animate": "^1.0.7",
+        "zod": "^3.23.8"
     },
     "devDependencies": {
         "@mongez/vite": "^2.0.4",
